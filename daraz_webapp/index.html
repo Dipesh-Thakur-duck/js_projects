@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
   <body>
-    <head>
+  <header>
       <nav class="navbar-daraz pb-4">
         <div class="container-lg">
           <ul class="nav-row1">
@@ -51,9 +51,31 @@
               <span class="material-symbols-outlined nav-shopping-cart align-self-end">shopping_cart</span>
             </div>   
           </div>
-          
         </div>
       </nav>
-    </head>
+    </header>
+    <main>
+      <div class="container-lg img-slider position-relative">
+        <div class="img-container">
+          <img src="./images/slider-img/slider-img1.avif" class="img-slider-js active">
+          <img src="./images/slider-img/slider-img2.avif" class="img-slider-js">
+        </div>
+        <div class="slider-side-btns position-absolute w-100 d-flex justify-content-between">
+          <span class="material-symbols-outlined rounded-pill-end prevBtn">
+            chevron_left
+          </span>
+          <span class="material-symbols-outlined rounded-pill-start nextBtn">
+            chevron_right
+          </span>
+        </div>
+        <div class="slider-dots position-absolute">
+  
+        </div>
+        <div>
+          
+        </div>
+      </div>
+    </main>
+    <script src="img-slider.js"></script>
   </body>
 </html>
