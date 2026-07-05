@@ -42,7 +42,6 @@ function dotCreation() {
     });
   });
 
-  updateActiveDot(0);
   goToSlide(0);
 }
 

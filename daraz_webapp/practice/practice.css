@@ -1,0 +1,112 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.download-app-container{
+  width:200px;
+  padding:7px;
+  font-family: Roboto, Arial, sans-serif;
+  background: linear-gradient(90deg, #fff, hsla(0, 0%, 100%, 0)), linear-gradient(179.27deg, #ffedd6 .83%, #ffc3e3 46.78%, #fff 99.57%), linear-gradient(0deg, #fff, #fff);
+}
+.header-portion{
+  display:flex;
+  margin-bottom:10px;
+  align-items:center;
+}
+.header-portion-daraz-logo{
+  width:25px;
+}
+.header-portion-download-p{
+  color:#6c1d00;
+  font-size:14px;
+  font-weight:500;
+  margin:0 auto;
+}
+.middle-portion{
+  padding:10px;
+  background-image:url('../images/download-app-div-img/folder-img.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin-bottom: 10px;
+}
+.middle-portion-rating{
+  color:white;
+  display:flex;
+  align-items:center;
+  font-size:10px;
+  font-weight: 500;
+  margin-bottom:7px;
+}
+.middle-portion-rating .material-symbols-outlined{
+  font-variation-settings: 'FILL' 1;
+  font-size:15px;
+}
+.middle-portion-download-p{
+  color:white;
+  text-align: center;
+  font-size:12px;
+  font-weight: 500;
+  margin:15px;
+}
+.middle-portion-logos{
+  display:flex;
+  flex-direction:column;
+  gap:5px;
+  align-items: center;
+  margin-bottom:5px;
+}
+.middle-portion-logos div{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.middle-portion-img-logo{
+  width:35px;
+}
+.middle-portion-p-logo{
+  color:white;
+  font-size:15px;
+}
+.last-portion{
+  margin-bottom:10px;
+  display:grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap:8px;
+  align-items:center;
+}
+.last-portion > div{
+  min-width:0;
+}
+.last-portion img{
+  display:block;
+  width:100%;
+  max-width:100%;
+  height:auto;
+}
+.last-portion > div:last-child{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+.app-store,
+.play-store{
+  display: block;
+  width: 100%;
+  max-width: 83px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.app-store{
+  background-image: url('../images/download-app-div-img/app-store.png');
+}
+
+.play-store{
+  background-image: url('../images/download-app-div-img/play-store.png');
+}
+.cfa-p{
+  font-size:11px;
+  font-weight: 500;
+}

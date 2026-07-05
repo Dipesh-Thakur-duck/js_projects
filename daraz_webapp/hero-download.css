@@ -1,0 +1,85 @@
+.download-app-container{
+  background: linear-gradient(90deg, #fff, hsla(0, 0%, 100%, 0)), linear-gradient(179.27deg, #ffedd6 .83%, #ffc3e3 46.78%, #fff 99.57%), linear-gradient(0deg, #fff, #fff);
+}
+
+@media (max-width: 1200px){
+  .download-app-container{
+    display: none;
+  }
+}
+/*top div*/
+.download-app-top-div{
+  display:grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+}
+.download-app-top-div-img{
+  width:75%;
+}
+.download-app-top-div-p{
+  text-align: center;
+  font-size:17px;
+  font-weight:var(--font-weight-600);
+  color:var(--download-app-top-div-p-color);
+}
+@media(min-width:1024px) and (max-width:1279px){
+  .download-app-top-div-p{
+    font-size:15px;
+  }
+}
+/*middle div*/
+.download-app-middle-div{
+  background-image: url('./images/download-app-div-img/folder-img.png');
+  background-repeat: no-repeat;
+  background-size:100% auto;
+}
+.download-app-middle-div > div:first-child{
+  gap:3px;
+  color:white;
+  font-weight: var(--font-weight-600);
+  font-size:9px;
+}
+.download-app-middle-div > div:first-child span{
+  font-variation-settings: 'FILL' 1;
+  font-size: 15px;
+}
+.download-app-middle-div-p{
+  text-align:center;
+  color:white;
+  font-weight: var(--font-weight-600);
+  font-size:12px;
+}
+.download-app-middle-div-logo{
+  width:45px;
+}
+.download-app-middle-div-logo-p{
+  color:white;
+  font-size:12px;
+  font-weight: var(--font-weight-600);
+}
+@media(min-width:1024px) and (max-width:1279px){
+  .download-app-middle-div-logo{
+    width:35px;
+  }
+}
+/*bottom div*/
+.download-app-bottom-div{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:5px;
+}
+.download-app-qr{
+  width:100%;
+}
+.download-app-btn{
+  display:block;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size:90% auto;
+}
+.download-app-app-store{
+  background-image: url('./images/download-app-div-img/app-store.png');
+}
+.download-app-play-store{
+  background-image: url('./images/download-app-div-img/play-store.png');
+}
