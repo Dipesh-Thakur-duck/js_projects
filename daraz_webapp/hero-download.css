@@ -83,3 +83,8 @@
 .download-app-play-store{
   background-image: url('./images/download-app-div-img/play-store.png');
 }
+/*cfa*/
+.download-app-cfa{
+  font-size:9.5px;
+  font-weight:var(--font-weight-600);
+}

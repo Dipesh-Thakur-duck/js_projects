@@ -1,4 +1,5 @@
 :root{
+  --bg-color:#f5f5f5;;
   --daraz-orange:#f85606;
   --nav-search-btn-bg:#ffe1d2;
   --img-slider-dots-color:#ddd;
@@ -6,8 +7,13 @@
   --font-weight-600:600;
 }
 body{
+  background-color: var(--bg-color) !important;
   font-family:Roboto, Helvetica, Tahoma, Arial, sans-serif;
 }
 .hero{
   display:flex;
+}
+/* Sales Add to Cart banner*/
+.sale-add-to-cart{
+  width:100%;
 }
