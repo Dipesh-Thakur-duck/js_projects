@@ -1,0 +1,84 @@
+:root{
+  --footer-grey:#f4f4f6;
+  --footer-blue-text:rgb(15, 19, 109);
+  --footer-light-blue:rgb(24, 53, 68);
+  --footer-heading:rgb(96,96,96);
+  --footer-text:rgb(136, 136, 136); 
+}
+/*footer section 1*/
+.footer-sec-1{
+  background-color:var(--footer-grey);
+}
+.footer-sec-1-grid{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:10px;
+}
+
+@media (max-width: 767.98px) {
+  .footer-sec-1-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width:575.98px){
+  .footer-sec-1-grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.footer-sec-1-heading{
+  color:var(--footer-blue-text);
+  font-size:15px;
+  font-weight:400;
+}
+.footer-links{
+  list-style: none;
+  padding-left:0 !important;
+}
+.footer-links li{
+  line-height:16px;
+}
+.footer-links a{
+  text-decoration:none;
+  color:var(--footer-blue-text);
+  font-size:11px;
+}
+.footer-links a:hover{
+  text-decoration:underline;
+}
+.footer-sec-1-happy-shopping{
+  color:var(--daraz-orange);
+  font-size:15px;
+}
+.footer-sec-1-download-app{
+  color:var(--footer-blue-text);
+  font-size:14px;
+}
+.app-img-grid{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:10px;
+  height: fit-content;
+  width:fit-content
+}
+@media (max-width:575.98px){
+  .app-img-grid img{
+    width:100px;
+  }
+}
+.footer-sec-2-heading{
+  color:var(--footer-light-blue);
+  font-size:16px;
+  font-weight: 400;
+}
+.footer-sec-2-grid{
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+}
+@media (max-width:575.98px){
+  .footer-sec-2-grid{
+    grid-template-columns:1fr;
+  }
+}
+.footer-payment-methods img{
+  width:40px;
+}

@@ -1,3 +1,7 @@
+:root{
+  --aqua-blue:#1a9cb8;
+}
+
 .just-for-you-products{
   display:grid;
   grid-template-columns:repeat(6, minmax(0, 1fr));
@@ -10,8 +14,12 @@
   display:flex;
   flex-direction:column;
   overflow:hidden;
+  transition:box-shadow 0.3s ease;
 }
 
+.just-for-you-product:hover{
+  box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
 .just-for-you-product img{
   height:200px;
   object-fit:cover;
@@ -86,4 +94,18 @@
 .just-for-you-product-ratings{
   font-size:12px;
   color:grey;
+}
+.just-for-you-products-more{
+  display:block;
+  border:1px solid var(--aqua-blue);
+  color:var(--aqua-blue);
+  background-color: transparent;
+  margin:0 auto;
+  font-size:14px;
+  width:400px;
+}
+@media (max-width:575.98px){
+  .just-for-you-products-more{
+    width:300px;
+  }
 }
