@@ -50,3 +50,8 @@ function updateActiveDot(index) {
     dot.classList.toggle('active', i === index);
   });
 }
+
+setInterval(() => {
+  const nextIndex = (currentIndex + 1) % images.length;
+  goToSlide(nextIndex);
+}, 2000);

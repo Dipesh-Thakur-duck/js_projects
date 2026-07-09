@@ -65,6 +65,7 @@
     width:100px;
   }
 }
+/*footer section 2*/
 .footer-sec-2-heading{
   color:var(--footer-light-blue);
   font-size:16px;
@@ -81,4 +82,109 @@
 }
 .footer-payment-methods img{
   width:40px;
+}
+/*footer section 3*/
+.footer-sec-3{
+  background-color:var(--footer-grey);
+}
+.footer-sec-3-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.footer-sec-3-heading{
+  color:var(--footer-heading);
+  font-size:16px;
+}
+/* Medium devices (tablets, < 992px) */
+@media (max-width: 991.98px) {
+  .footer-sec-3-grid{
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+  }
+  .footer-sec-3-heading{
+    margin-bottom:10px;
+  }
+}
+
+/* Small devices (landscape phones, < 768px) */
+@media (max-width: 767.98px) {
+  .footer-sec-3-grid{
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+  }
+  .footer-sec-3-heading{
+    margin-bottom:10px;
+  }
+}
+
+/* Extra small devices (portrait phones, < 576px) */
+@media (max-width: 575.98px) {
+  .footer-sec-3-grid{
+    grid-template-columns: 1fr;
+    gap:0;
+  }
+}
+.footer-sec-3-p{
+  font-size:11px;
+  color:var(--footer-text);
+}
+.footer-sec-3-link{
+  color:var(--aqua-blue);
+  text-decoration: none;
+}
+.footer-sec-3-link:hover{
+  text-decoration: underline;
+}
+.footer-sec-3-links-blue-underline{
+  font-size:11px;
+}
+.footer-sec-3-links-blue-underline a{
+  text-decoration:none;
+  color:var(--footer-text);
+}
+.footer-sec-3-links-blue-underline a:hover{
+  text-decoration: underline;
+  text-decoration-color: var(--aqua-blue);
+}
+.footer-sec-3-links-grey-underline{
+  font-size:11px;
+}
+.footer-sec-3-links-grey-underline a{
+  text-decoration:none;
+  color:var(--footer-text);
+}
+.footer-sec-3-links-grey-underline a:hover{
+  text-decoration: underline;
+}
+.footer-small-heading{
+  color:var(--footer-heading);
+}
+/*footer sec 4*/
+.footer-sec-4-grid{
+  display:grid;
+  grid-template-columns:2fr repeat(2, 1fr);
+  gap:20px;
+}
+/* Medium devices (tablets, < 992px) */
+@media (max-width: 991.98px) {
+  .footer-sec-4-grid{
+    grid-template-columns: 2fr 1fr;
+    gap:10px;
+  }
+}
+
+/* Small devices (landscape phones, < 768px) */
+@media (max-width: 767.98px) {
+  .footer-sec-4-grid{
+    grid-template-columns: 1fr;
+  }
+}
+.footer-sec-4-img{
+  width:30px;
+}
+.footer-sec-4-text{
+  color:var(--footer-text);
+  font-size:13px;
 }
