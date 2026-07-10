@@ -7,6 +7,7 @@
   --font-weight-600:600;
 }
 body{
+  position:relative;
   background-color: var(--bg-color) !important;
   font-family:Roboto, Helvetica, Tahoma, Arial, sans-serif;
 }
